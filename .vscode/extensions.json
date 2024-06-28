@@ -1,0 +1,31 @@
+{
+    "recommendations": [
+        "ritwickdey.liveserver",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "visualstudioexptteam.vscodeintellicode",
+        "oderwat.indent-rainbow",
+        "zignd.html-css-class-completion",
+        "lablup.live-code-runner",
+        "sdras.night-owl",
+        "ms-vscode.vscode-serial-monitor",
+        "ms-vscode.test-adapter-converter",
+        "gruntfuggly.todo-tree",
+        "redhat.vscode-xml",
+        "robbowen.synthwave-vscode",
+        "corygross.vscode-mdn-docs",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "wcwhitehead.bootstrap-3-snippets",
+        "anbuselvanrocky.bootstrap5-vscode",
+        "george-alisson.html-preview-vscode",
+        "zaczero.bootstrap-v4-snippets",
+        "formulahendry.auto-complete-tag",
+        "evan.bartleby-at-night",
+        "aessoft.aessoft-class-autocomplete",
+        "bradlc.vscode-tailwindcss",
+        "sidthesloth.html5-boilerplate",
+        "ecmel.vscode-html-css",
+        "hossaini.bootstrap-intellisense",
+        "xabikos.javascriptsnippets"
+    ]
+}
