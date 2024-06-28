@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+     <style>
+        table{
+            color:;
+            border-collapse: collapse;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-style: oblique ;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input[type="text"] {
+            margin: 10px 0;
+        }
+        input[type="button"] {
+            margin: 10px 0;
+        }
+    </style>
+    <h1>Calculator</h1>
+   
+   
+    <table>
+        <tr>
+            <th>Number 01</th>
+            <th>Operator</th>
+            <th>Number 02</th>
+            
+            
+        </tr>
+        <tr>
+            <td> <input type="text" placeholder="Number 01" id="number01"></td>
+            
+            <td>
+                <select id="op">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </td>
+            <td><input type="text" placeholder="Number 02" id="number02"></td>
+        </tr>    </table>
+        <table fxLayoutAlign="center center">
+        <td> <input  type="button" value="Calculate" id="btn" onclick="calc()"></td>
+    
+        <th> <label for="output" id="output"></label></th>
+
+</table>
+    <script src="app.js"></script>
+</body>
+</html>
